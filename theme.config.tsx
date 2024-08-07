@@ -10,9 +10,10 @@ const config: DocsThemeConfig = {
   chat: {
     link: "https://discord.com",
   },
-  docsRepositoryBase: "https://github.com/aleksandrmakarov-dev/my-static-site",
-  footer: {
-    text: "NETCODE.SPACE 2024",
+  docsRepositoryBase:
+    "https://github.com/aleksandrmakarov-dev/my-static-site/tree/main",
+  sidebar: {
+    defaultMenuCollapseLevel: 2,
   },
 };
 

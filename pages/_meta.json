@@ -2,6 +2,8 @@
   "index": "Introduction",
   "another": "Another Page",
   "advanced": "Advanced (A Folder)",
+  "tasks": "Practical Tasks",
+  "projects": "Projects",
   "about": {
     "title": "About",
     "type": "page"
