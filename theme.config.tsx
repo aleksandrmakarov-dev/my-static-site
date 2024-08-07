@@ -2,7 +2,7 @@ import React from "react";
 import { DocsThemeConfig } from "nextra-theme-docs";
 
 const config: DocsThemeConfig = {
-  logo: <span>NETCODE.SPACE</span>,
+  logo: <span style={{ fontWeight: 700 }}>NETCODE.SPACE</span>,
   project: {
     link: "https://github.com/aleksandrmakarov-dev/my-static-site",
   },
