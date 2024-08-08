@@ -22,6 +22,10 @@ const config: DocsThemeConfig = {
       titleTemplate: "%s :: NETCODE.SPACE",
     };
   },
+  i18n: [
+    { locale: "en-US", text: "English" },
+    { locale: "ru-RU", text: "Русский" },
+  ],
 };
 
 export default config;
