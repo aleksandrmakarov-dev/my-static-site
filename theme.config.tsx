@@ -15,6 +15,9 @@ const config: DocsThemeConfig = {
   sidebar: {
     defaultMenuCollapseLevel: 2,
   },
+  footer: {
+    text: "MIT 2024 © NETCODE.SPACE",
+  },
 };
 
 export default config;
