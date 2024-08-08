@@ -6,7 +6,6 @@ const config: DocsThemeConfig = {
   project: {
     link: "https://github.com/aleksandrmakarov-dev/my-static-site",
   },
-
   chat: {
     link: "https://discord.com",
   },
@@ -17,6 +16,11 @@ const config: DocsThemeConfig = {
   },
   footer: {
     text: "MIT 2024 © NETCODE.SPACE",
+  },
+  useNextSeoProps: () => {
+    return {
+      titleTemplate: "%s :: NETCODE.SPACE",
+    };
   },
 };
 
